@@ -16,7 +16,8 @@ font-size: 2rem;
 text-decoration: none;
 }
 
-.logo div{
+.logo div,
+.logo p{
   text-align: center;
 }
 
