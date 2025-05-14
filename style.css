@@ -123,7 +123,7 @@ background-size: center;
 .accueil-1{
 background-color: #22badc;
 padding: 15px;
-margin-left: 650px;
+margin:auto;
 margin-top: 100px;
 width: 700px;
 height: auto;
@@ -135,7 +135,7 @@ border-radius: 25px;
 .accueil-2{
 background-color: #31d8d0;
 padding: 15px;
-margin-left: 550px;
+margin:auto;
 margin-top: 50px;
 width: 700px;
 height: auto;
