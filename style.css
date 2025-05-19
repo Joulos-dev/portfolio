@@ -118,8 +118,6 @@ h2{
 .banner{
 background-image: url('images/image-fond-bureau.jpg');
 background-size: cover;
-background-size: fixed;
-background-size: center;
 height: 100%;
 }
 
