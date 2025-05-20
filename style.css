@@ -1,135 +1,137 @@
-.photo-profil img{
-  border-radius: 250px;
-  width: 14rem;
-  height: 14rem;
-  border-width: 4px;
-  border-color: #27384C;
+.photo-profil img {
+    border-radius: 250px;
+    width: 14rem;
+    height: 14rem;
+    border: solid 5px black;
 }
 
 a {
-display: inline-block;
-background: linear-gradient(#E8EDDF, #CFDBD5);
-color: black;
-border-radius: 10px;
-padding: 10px;
-margin:5px;
-font-size: 1.2rem;
-text-decoration: none;
-height:25px;
-width: 100px;
-text-align: center;
+    display: inline-block;
+    background: linear-gradient(#e8eddf, #cfdbd5);
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    height: 25px;
+    width: 100px;
+    text-align: center;
 }
 
-a:hover{
-  color: white;
+a:hover {
+    color: white;
 }
 
 .logo div,
-.logo p{
-  text-align: center;
+.logo p {
+    text-align: center;
 }
 
-.logo{
-display:flex;
-justify-content: center;
+.logo {
+    display: flex;
+    justify-content: center;
 }
 
-.logo img{
-  width: 3rem;
-  height: 3rem;
-  display: inline-block;
+.logo img {
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
 }
 
-.logo-droite{
-left:50px;
+.logo-droite {
+    left: 50px;
 }
 
-.conteneur{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  gap:10px;
-  width: 1200px;
-  margin: 80px auto;
-  padding: 20px;
-  box-shadow: 3px 3px 3px rgba(0,0,0,0.12), 3px 3px 3px rgba(0,0,0,0.24);
-  background-color: black;
-  border-radius: 50px;
+.conteneur {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+    border-radius: 50px;
+
+    @media screen and (width < 600px) {
+        grid-template-columns: 1fr;
+    }
 }
 
-.photo-profil{
-border-radius: 9999px;
-border-width: 40px;
-border-color: white;
-top: 4rem;
-left: 25rem;
-position: absolute;
+.milieu-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+
+    @media screen and (width < 600px) {
+        flex-direction: column;
+    }
 }
 
-.prenom-nom{
-font-size: 2rem;
-left: 50rem;
-position: relative;
-
+.prenom-nom {
+    font-size: 2rem;
 }
 
-body{
-font-family:'Manrope', sans-serif;
-font-size: 0.9em;
-background-color:black;
-margin: 0;
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: 0.9em;
+    background-color: black;
+    margin: 0;
 }
 
-.aside{
-background-color:#E8EDDF;
-padding:10px; 
-margin-top: 20px;
-border-radius: 50px 0px 0px 50px;
+.aside {
+    background-color: #e8eddf;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 50px 0px 0px 50px;
 }
 
-.main{
-background-color: #CFDBD5;
-padding: 10px;
-margin-top: 40px;
-border-radius: 0px 50px 50px 0px;
+.main {
+    background-color: #cfdbd5;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 0px 50px 50px 0px;
 }
 
-h2{
-text-align: center;
-font-size: 1.5rem;
-padding:5px;
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px;
 }
 
-p{
-text-align: left;
-padding: 10px ;
+p {
+    text-align: left;
+    padding: 10px;
 }
 
-h1, h2{
-font-family: 'Montserrat', sans-serif;
+h1,
+h2 {
+    font-family: "Montserrat", sans-serif;
 }
 
-h2{
-  color: white;
-  background-color: black;
-  border-radius: 10px;
+h2 {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
 }
 
-.banner{
-background-image: url('images/image-fond-bureau.jpg');
-background-size: cover;
-height: 100%;
+.banner {
+    background-image: url("images/image-fond-bureau.jpg");
+    background-size: cover;
+    height: 100%;
 }
 
 .index .banner {
-  height: 100vh;
+    height: 100vh;
 }
 
-.accueil-1{
-background: linear-gradient(#E8EDDF, #CFDBD5);
-padding: 20px;
-margin:auto;
-margin-top: 100px;
-width: 700px;
-border-radius: 25px;
+.accueil-1 {
+    background: linear-gradient(#e8eddf, #cfdbd5);
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    max-width: 700px;
+    border-radius: 25px;
 }
